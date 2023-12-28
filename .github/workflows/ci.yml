@@ -35,7 +35,7 @@ jobs:
       with:
         context: .
         push: true
-        tags: tejabaskara/ci-cd:latest
+        tags: tejabaskara04/ci-cd:latest
         
     - name: login ssh and deploy
       uses: appleboy/ssh-action@v1.0.1
