@@ -2,7 +2,7 @@ version: '3.4'
 
 services:
   cicdimplementation:
-    image: ci-cd-implementation
+    image: ci-cd
     build:
       context: .
       dockerfile: ./Dockerfile
